@@ -1,0 +1,74 @@
+*{font-family: cursive}
+body{
+  height: 10vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  padding: 40px 70px 24px 70px;
+  background-image: url(img/285454.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+header {
+  background: linear-gradient(to right, #15ff00, #ff04d5);
+  color: #fff;
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 20px;
+  }
+  .socials{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+
+    margin-right: 50px;
+  }
+  
+  nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+.zumbis{
+  background-color:gray;
+  border-radius: 10px;
+}
+.trailer{
+  background: linear-gradient(to right, #15ff00, #d3eb02);
+  position: absolute;
+  left:0;
+  bottom:0;
+  color:white;
+  border-radius: 100px;
+  text-align: center;
+  font-size: larger;
+  
+}
+.info__text{
+  font-size: 30px;
+  width: 600px;
+  color: #3d3c3c;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.7;
+  background-color: rgb(229, 255, 0);
+  border-radius: 20px;
+}
